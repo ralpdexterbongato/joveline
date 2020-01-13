@@ -196,9 +196,15 @@ a
 .main-view
 {
   max-width: 1000px;
-  margin:0 auto;
-  pading: 0px 30px;
+  margin:0 40px;
   overflow-x: hidden;
+}
+@media(max-width:768px)
+{
+  .main-view
+  {
+    margin:0 auto;
+  }
 }
 .head-cta a
 {
