@@ -473,4 +473,45 @@ a
     font-size: 11px;
   }
 }
+
+p::-moz-selection
+{
+  background: #62FBD7;
+  color:#0A192F;
+}
+p::selection
+{
+  color:#0A192F;
+  background: #62FBD7;
+}
+a::-moz-selection
+{
+  background: #62FBD7;
+  color:#0A192F;
+}
+a::selection
+{
+  color:#0A192F;
+  background: #62FBD7;
+}
+h1::-moz-selection
+{
+  background: #62FBD7;
+  color:#0A192F;
+}
+h1::selection
+{
+  color:#0A192F;
+  background: #62FBD7;
+}
+h2::-moz-selection
+{
+  background: #62FBD7;
+  color:#0A192F;
+}
+h2::selection
+{
+  color:#0A192F;
+  background: #62FBD7;
+}
 </style>

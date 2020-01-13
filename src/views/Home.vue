@@ -58,12 +58,12 @@
         <div class="featured-right">
           <p class="short-feature-title">Featured skill</p>
           <h3>Illustrations</h3>
-          <p class="long-feature-title">I can design flat llustations for you website, flat design helps to focus more on the content, without distracting the viewers from the visual effects.</p>
+          <p class="long-feature-title">I can design flat illustrations for your website, flat design helps to focus more on the content, without distracting the viewers from the visual effects.</p>
           <ul class="hashtags">
             <li>#flatdesign</li>
             <li>#svg</li>
             <li>#websiteillustration</li>
-            <li>#simple-art</li>
+            <li>#art</li>
           </ul>
         </div>
       </div>
@@ -100,7 +100,7 @@
         <div class="featured-right">
           <p class="short-feature-title">Featured skill</p>
           <h3>Photo Editing</h3>
-          <p class="long-feature-title">I can edit and improve your product images, consumers cannot touch or feel your products online but it's the images that decide if he/she will buy the product.</p>
+          <p class="long-feature-title">I can edit and improve your product images, consumers cannot touch or feel your products online and it's the image that decides if he/she will buy your product.</p>
           <ul class="hashtags">
             <li>#improve</li>
             <li>#photoshop</li>
@@ -509,6 +509,13 @@ export default {
     font-family: 'Roboto Mono', monospace;
     font-size: 13px;
 }
+@media(max-width:375px)
+{
+  .about-content ul
+  {
+    font-size: 10px;
+  }
+}
 .about-content p
 {
   margin-bottom: 20px;
@@ -658,7 +665,7 @@ export default {
 {
   flex:1;
 }
-@media(max-width:425px)
+@media(max-width:625px)
 {
   .featured-skill-design-one .featured-img-container
   {
@@ -773,7 +780,7 @@ export default {
   flex:1;
   position: relative;
 }
-@media(max-width:425px)
+@media(max-width:625px)
 {
   .featured-skill-design-two .featured-img-container
   {
@@ -870,15 +877,13 @@ export default {
 .design-box
 {
   border-radius:3px;
-  background: #172A45;
-  width: 322px;
-  height: 222px;
-  margin: 20px 0px;
+  width: 222px;
+  margin: 20px 20px;
 }
 .design-box-img
 {
-  width: 322px;
-  height: 222px;
+  width: 100%;
+  height: 99%;
   border-radius: 3px;
   position: relative;
   box-sizing: border-box;
@@ -891,10 +896,17 @@ export default {
   position: absolute;
   bottom:0;
   left: 0;
-  width: 322px;
-  height: 222px;
+  width: 100%;
+  height: 100%;
   background:linear-gradient(rgba(26, 223, 134,.1),rgba(26, 223, 134,.7));
   transition: opacity .2s ease-in-out;
+}
+@media(max-width:625px)
+{
+  .design-box
+  {
+    width: auto;
+  }
 }
 @media(max-width:325px)
 {
@@ -924,14 +936,21 @@ export default {
 {
   margin-top: 50px;
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   flex-wrap: wrap;
 }
 .more-design-box
 {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
+}
+@media(max-width:768px)
+{
+  .design-boxes-container
+  {
+    justify-content:center!important;
+  }
 }
 @media(max-width:425px)
 {
