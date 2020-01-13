@@ -17,7 +17,7 @@
     <div class="about-content-container">
       <div class="wow fadeIn about-content" v-wow data-wow-delay=".7s" data-wow-duration=".4s">
         <p>Hello! I'm Joveline, a Graphic Designer based in Philippines, who enjoys designing things that live on the internet. Art is already my passion since I was young and I decided to pursue my passion through freelancing.</p>
-        <p>I have won multiple awards at our school <a href="#">Davao University</a> and represented our school for multiple occasions.</p>
+        <p>I have won multiple awards at our school <a href="https://www.google.com/maps/place/Tagum+City+National+Trade+School/@7.420623,125.827274,15z/data=!4m5!3m4!1s0x0:0x1b9d743f86869dff!8m2!3d7.420623!4d125.827274" target="_blank">Tagum City National Trade School</a> and represented our school for multiple occasions.</p>
         <p>Here are a few technologies I've been working with recently:</p>
         <ul>
           <li>Adobe Illustrator</li>
