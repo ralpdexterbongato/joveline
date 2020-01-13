@@ -5,7 +5,7 @@
       <router-link to="/about">About</router-link> -->
       <div class="left-nav">
         <div class="fadeIn logo-top" v-wow data-wow-delay=".5s" data-wow-duration=".5s">
-          <img src="./assets/sitelogo.svg" alt="">
+          <a href="/"><img src="./assets/sitelogo.svg" alt=""></a>
         </div>
       </div>
       <div class="right-nav">
@@ -211,7 +211,7 @@ a
   border-radius: 3px;
   position: relative;
   top:-10px;
-  margin:25px 0px 0px 0px !important
+  margin:15px 0px 0px 0px !important
 }
 .left-nav
 {
@@ -247,7 +247,7 @@ a
 .right-nav ol li
 {
  margin:0px 20px;
- margin-top: 17px;
+ margin-top: 8px;
 }
 .right-nav ol li a
 {
