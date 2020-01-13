@@ -1,0 +1,33 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<defs>
+<style type="text/css">
+	.st2{
+	fill:none;
+	stroke:#64FFDA;
+	stroke-width:27;
+	stroke-miterlimit:10;
+    	stroke-linejoin:round;
+    	pointer-events:none;
+	
+	stroke-dasharray:1600;
+    	stroke-dashoffset:100;
+    	-webkit-animation:dash 2s linear forwards;
+    	-o-animation:dash 2s linear forwards;
+    	animation:dash 2s linear forwards;
+	}
+	@-webkit-keyframes dash
+    {
+    	from
+    	{
+    		stroke-dashoffset:1700;
+    	}
+    	to
+    	{
+    		stroke-dashoffset:100;
+    	}
+    }
+</style>
+</defs>
+<polygon class="st2" points="216.5,44.5 56.5,138.5 56.5,356.5 249.5,475.5 439.5,366.5 445.5,140.5 250.5,25.5 "/>
+</svg>
