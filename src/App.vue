@@ -141,6 +141,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+html
+{
+  background:#0A192F;
+}
 
 // Css reset end
 #app {
