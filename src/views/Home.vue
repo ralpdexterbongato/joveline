@@ -1,11 +1,11 @@
 <template>
   <div class="home">
    <div class="intro-section">
-     <p class="wow fadeInUp intro" v-wow data-wow-delay=".7s" data-wow-duration=".4s">Hi, my name is</p>
-     <h1 class="wow fadeInUp" v-wow data-wow-delay=".8s" data-wow-duration=".4s">Joveline Camus.</h1>
-     <h2 class="wow fadeInUp" v-wow data-wow-delay=".9s" data-wow-duration=".4s">I design things for the web.</h2>
-     <p class="wow fadeInUp long-intro" v-wow data-wow-delay="1s" data-wow-duration=".4s">I'm a graphic designer based in Philippines, specializing in designing exceptional, high-quality images for the internet.</p>
-     <a class="wow fadeInUp normal-cta" v-wow data-wow-delay="1.1s" data-wow-duration=".4s"  href="mailto:jovelinecamus@gmail.com">Get In Touch</a>
+     <p class="wow fadeInUp intro" v-wow data-wow-delay="6.7s" data-wow-duration=".4s">Hi, my name is</p>
+     <h1 class="wow fadeInUp" v-wow data-wow-delay="6.8s" data-wow-duration=".4s">Joveline Camus.</h1>
+     <h2 class="wow fadeInUp" v-wow data-wow-delay="6.9s" data-wow-duration=".4s">I design things for the web.</h2>
+     <p class="wow fadeInUp long-intro" v-wow data-wow-delay="7s" data-wow-duration=".4s">I'm a graphic designer based in Philippines, specializing in designing exceptional, high-quality images for the internet.</p>
+     <a class="wow fadeInUp normal-cta" v-wow data-wow-delay="7.1s" data-wow-duration=".4s"  href="mailto:jovelinecamus@gmail.com">Get In Touch</a>
    </div>
    <div class="section-spacer">
      <!-- blank -->

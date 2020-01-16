@@ -4,26 +4,26 @@
       <!-- <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link> -->
       <div class="left-nav">
-        <div class="fadeIn logo-top" v-wow data-wow-delay=".5s" data-wow-duration=".5s">
+        <div class="fadeIn logo-top" v-wow data-wow-delay="6.5s" data-wow-duration=".5s">
           <a href="/"><img src="./assets/sitelogo.svg" alt=""></a>
         </div>
       </div>
       <div class="right-nav">
         <ol class="desktop">
-          <li class="fadeInDown" v-wow data-wow-delay="0s" data-wow-duration=".1s"><a href="#about" v-smooth-scroll>About</a></li>
-          <li class="fadeInDown" v-wow data-wow-delay="0s" data-wow-duration=".6s"><a href="#works" v-smooth-scroll>Works</a></li>
-          <li class="fadeInDown" v-wow data-wow-delay="0s" data-wow-duration="1.1s"><a href="#contact" v-smooth-scroll>Contact</a></li>
-          <li class="fadeInDown head-cta" v-wow data-wow-delay="0s" data-wow-duration="1.7s"><a href="#">Resume</a></li>
+          <li class="fadeInDown" v-wow data-wow-delay="6s" data-wow-duration=".1s"><a href="#about" v-smooth-scroll>About</a></li>
+          <li class="fadeInDown" v-wow data-wow-delay="6s" data-wow-duration=".6s"><a href="#works" v-smooth-scroll>Works</a></li>
+          <li class="fadeInDown" v-wow data-wow-delay="6s" data-wow-duration="1.1s"><a href="#contact" v-smooth-scroll>Contact</a></li>
+          <li class="fadeInDown head-cta" v-wow data-wow-delay="6s" data-wow-duration="1.7s"><a href="#">Resume</a></li>
         </ol>
         <div class="burger-menu-container" v-on:click="mobilenav()" :class="{'active':mobileNavIsActive}">
           <div class="burger-menu">
           </div>
         </div>
         <ol class="mobile" :class="{'active':mobileNavIsActive}">
-          <li v-on:click="mobilenav()" class="fadeInDown" v-wow data-wow-delay="0s" data-wow-duration=".1s"><a href="#about" v-smooth-scroll>About</a></li>
-          <li v-on:click="mobilenav()" class="fadeInDown" v-wow data-wow-delay="0s" data-wow-duration=".6s"><a href="#works" v-smooth-scroll>Works</a></li>
-          <li v-on:click="mobilenav()" class="fadeInDown" v-wow data-wow-delay="0s" data-wow-duration="1.1s"><a href="#contact" v-smooth-scroll>Contact</a></li>
-          <li v-on:click="mobilenav()" class="fadeInDown head-cta" v-wow data-wow-delay="0s" data-wow-duration="1.7s"><a href="#">Resume</a></li>
+          <li v-on:click="mobilenav()" class="fadeInDown" v-wow data-wow-delay="6s" data-wow-duration=".1s"><a href="#about" v-smooth-scroll>About</a></li>
+          <li v-on:click="mobilenav()" class="fadeInDown" v-wow data-wow-delay="6s" data-wow-duration=".6s"><a href="#works" v-smooth-scroll>Works</a></li>
+          <li v-on:click="mobilenav()" class="fadeInDown" v-wow data-wow-delay="6s" data-wow-duration="1.1s"><a href="#contact" v-smooth-scroll>Contact</a></li>
+          <li v-on:click="mobilenav()" class="fadeInDown head-cta" v-wow data-wow-delay="6s" data-wow-duration="1.7s"><a href="#">Resume</a></li>
         </ol>
       </div>
     </div>
@@ -31,7 +31,7 @@
       <router-view />
     </div>
     <div class="side-links">
-      <div class="fadeIn left-links" v-wow data-wow-delay="1.3s" data-wow-duration="1s">
+      <div class="fadeIn left-links" v-wow data-wow-delay="8.3s" data-wow-duration="1s">
         <ul>
           <li><a href="#"><img src="./assets/githubicon.svg"></a></li>
           <li><a href="#"><img src="./assets/linked.svg"></a></li>
@@ -40,7 +40,7 @@
         </ul>
 
       </div>
-      <div class="fadeIn right-links" v-wow data-wow-delay="1.4s" data-wow-duration="1s">
+      <div class="fadeIn right-links" v-wow data-wow-delay="8.5s" data-wow-duration="1s">
         <ul>
           <li><a href="mailto:jovelinecamus@gmail.com">jovelinecamus@gmail.com</a> </li>
         </ul>
@@ -48,6 +48,30 @@
    </div>
     <div class="footer">
       <p>Website built by Ralp Dexter Bongato <svg aria-label="stars" viewBox="0 0 14 16" version="1.1" width="14" height="16" role="img"><path fill-rule="evenodd" d="M14 6l-4.9-.64L7 1 4.9 5.36 0 6l3.6 3.26L2.67 14 7 11.67 11.33 14l-.93-4.74L14 6z"></path></svg> 2020</p>
+    </div>
+    <div class="loading-animation" :class="{'off':loaded,'hide':hidden}">
+      <div class="loading-svg-container">
+        <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+           <g>
+           	<g>
+           		<g>
+           			<path class="st0" d="M214.8,346.1c-9-4.3-16.4-10.5-22-18.4L216,311c2.6,4.6,6.4,8.1,11.3,10.6c4.9,2.5,10.6,3.7,17.1,3.7
+           				c11.1,0,19.6-3.5,25.6-10.3c6.1-6.9,9.1-16.5,9.1-29V148.3h28.4v138c0,13.9-2.4,26-7.3,35.8c-4.9,10-12.1,17.4-21.5,22.7
+           				c-9.5,5.2-20.9,7.8-34.3,7.8C233.7,352.7,223.8,350.5,214.8,346.1z"/>
+           		</g>
+           	</g>
+           	<g>
+           		<g>
+           			<path class="st1" d="M210.5,346.1c-9-4.3-16.4-10.5-22-18.4l23.2-16.7c2.6,4.6,6.4,8.1,11.3,10.6c4.9,2.5,10.6,3.7,17.1,3.7
+           				c11.1,0,19.6-3.5,25.6-10.3c6.1-6.9,9.1-16.5,9.1-29V148.3h28.4v138c0,13.9-2.4,26-7.3,35.8c-4.9,10-12.1,17.4-21.5,22.7
+           				c-9.5,5.2-20.9,7.8-34.3,7.8C229.4,352.7,219.5,350.5,210.5,346.1z"/>
+           		</g>
+           	</g>
+           </g>
+        <polyline class="st2" points="261,25 58,138 58,361 248.6,475 438,366 438,142 241.7,25 "/>
+        </svg>
+      </div>
     </div>
   </div>
 </template>
@@ -61,6 +85,8 @@ export default {
       menuHidden:false,
       hideMenuShadow:true,
       mobileNavIsActive:false,
+      loaded:false,
+      hidden:false,
     }
   },
   methods: {
@@ -89,10 +115,16 @@ export default {
     mobilenav()
     {
       this.mobileNavIsActive = !this.mobileNavIsActive;
+    },
+    loadingTimer()
+    {
+      setTimeout(() => this.loaded = true, 5000);
+      setTimeout(() => this.hidden = true, 6000);
     }
   },
   mounted() {
     this.scroll();
+    this.loadingTimer();
   },
 }
 </script>
@@ -525,4 +557,80 @@ h2::selection
   color:#0A192F;
   background: #62FBD7;
 }
+
+
+// intro animation
+  .st0{fill:#2459A8;}
+  .st1{fill:#64FFDA;}
+  .st2{fill:none;stroke:#64FFDA;stroke-width:35;stroke-miterlimit:10;}
+  .st2{
+        -webkit-animation: dashAnim 1s 1s linear alternate forwards;
+      animation: dashAnim 1s 1s linear alternate forwards;
+        animation:dash 3s linear forwards;
+    display: block;
+    stroke-dashoffset: 2025px;
+    stroke-dasharray: 2025px;
+  }
+  .st1
+  {
+    opacity:0;
+    animation: appear 2s 1;
+        animation-fill-mode: forwards;
+    animation-delay: 2.5s
+  }
+  .st0
+  {	opacity:0;
+    animation: appear 2s 1;
+        animation-fill-mode: forwards;
+    animation-delay: 2.5s
+  }
+
+  @keyframes fill {
+     from { fill: none; }
+     to { fill: #f00; }
+  }
+  @-webkit-keyframes dash
+      {
+        from
+        {
+          stroke-dashoffset:2025px;
+        }
+        to
+        {
+          stroke-dashoffset:0px;
+        }
+      }
+  @keyframes appear {
+      from { opacity:0; }
+      to { opacity:1; }
+  }
+
+  .loading-animation
+  {
+    position:fixed;
+    top: 0;
+    left:0;
+    right:0;
+    background: #020C1B;
+    width: 100vw;
+    height: 100vh;
+    z-index: 100;
+  }
+  .loading-animation .loading-svg-container
+  {
+    max-width: 100px;
+    margin: 0 auto;
+    margin-top: 40vh;
+    transition: transform .2s;
+  }
+  .loading-animation.off .loading-svg-container
+  {
+    transform: scale(0.0);
+  }
+  .loading-animation.off.hide
+  {
+    display: none;
+  }
+
+
 </style>

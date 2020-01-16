@@ -1,0 +1,69 @@
+
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 500 500" style="enable-background:new 0 0 500 500;" xml:space="preserve">
+<defs>
+<style type="text/css">
+	.st0{fill:#2459A8;}
+	.st1{fill:#64FFDA;}
+	.st2{fill:none;stroke:#64FFDA;stroke-width:35;stroke-miterlimit:10;}
+	.st2{
+    		-webkit-animation: dashAnim 1s 1s linear alternate forwards;
+  		animation: dashAnim 1s 1s linear alternate forwards;
+    		animation:dash 3s linear forwards;
+		display: block;
+ 		stroke-dashoffset: 2025px;
+		stroke-dasharray: 2025px;
+	}
+	.st1
+	{
+		opacity:0;
+		animation: appear 3s 1;
+    		animation-fill-mode: forwards;
+		animation-delay: 2.5s
+	}
+	.st0
+	{	opacity:0;
+		animation: appear 3s 1;
+    		animation-fill-mode: forwards;
+		animation-delay: 2.5s
+	}
+
+	@keyframes fill {
+ 	   from { fill: none; }
+ 	   to { fill: #f00; }
+	}
+	@-webkit-keyframes dash
+    	{
+    		from
+    		{
+    			stroke-dashoffset:2025px;
+    		}
+    		to
+    		{
+    			stroke-dashoffset:0px;
+    		}
+    	}
+	@keyframes appear { 
+  	  from { opacity:0; } 
+  	  to { opacity:1; } 
+	}
+</style>
+</defs>
+<g>
+	<g>
+		<g>
+			<path class="st0" d="M212.3,337.9c-7.5-3.6-13.6-8.7-18.3-15.3l19.3-13.9c2.2,3.8,5.3,6.7,9.4,8.8c4.1,2.1,8.8,3.1,14.2,3.1
+				c9.2,0,16.3-2.9,21.3-8.6c5.1-5.7,7.6-13.7,7.6-24.1V173.4h23.6v114.8c0,11.6-2,21.6-6.1,29.8c-4.1,8.3-10.1,14.5-17.9,18.9
+				c-7.9,4.3-17.4,6.5-28.5,6.5C228,343.4,219.8,341.6,212.3,337.9z"/>
+		</g>
+	</g>
+	<g>
+		<g>
+			<path class="st1" d="M208.7,337.9c-7.5-3.6-13.6-8.7-18.3-15.3l19.3-13.9c2.2,3.8,5.3,6.7,9.4,8.8c4.1,2.1,8.8,3.1,14.2,3.1
+				c9.2,0,16.3-2.9,21.3-8.6c5.1-5.7,7.6-13.7,7.6-24.1V173.4h23.6v114.8c0,11.6-2,21.6-6.1,29.8c-4.1,8.3-10.1,14.5-17.9,18.9
+				c-7.9,4.3-17.4,6.5-28.5,6.5C224.4,343.4,216.2,341.6,208.7,337.9z"/>
+		</g>
+	</g>
+</g>
+<polyline class="st2" points="261,25 58,138 58,361 248.6,475 438,366 438,142 241.7,25 "/>
+</svg>
